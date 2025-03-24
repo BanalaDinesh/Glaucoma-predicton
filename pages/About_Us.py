@@ -4,7 +4,7 @@ import streamlit.components.v1 as components
 
 # Set page title
 st.set_page_config(
-    page_title="EyeCare AI | About Us",
+    page_title="NeuroVision| About Us",
     page_icon=":eye:",
     initial_sidebar_state="expanded",
 )
@@ -42,11 +42,11 @@ components.html(
     """,
     height=69,
 )
-st.write(f"##Major Project by Pranay and Santosh")
+st.write(f"## Major Project by Anshul , Dinesh , Joshua Pratheek ")
 
 
 # Add EyeCare description
-st.markdown("## EyeCare")
-st.write("EyeCare is an app that uses AI and machine learning to detect diseases from images uploaded by users. Our goal is to make healthcare more accessible and affordable by providing a fast, accurate, and reliable diagnosis tool. We believe that technology can revolutionize the way we approach healthcare, and we're excited to be at the forefront of this innovation.")
+st.markdown("## NeuroVision")
+st.write("NeuroVision is an app that uses AI and machine learning to detect diseases from images uploaded by users. Our goal is to make healthcare more accessible and affordable by providing a fast, accurate, and reliable diagnosis tool. We believe that technology can revolutionize the way we approach healthcare, and we're excited to be at the forefront of this innovation.")
 
 
