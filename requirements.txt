@@ -1,0 +1,5 @@
+tensorflow==2.15.1
+keras
+streamlit
+pandas
+numpy
