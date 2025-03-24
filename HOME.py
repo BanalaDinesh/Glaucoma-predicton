@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 
 # Set page title
 st.set_page_config(
-    page_title="Eye  Disease Predictor",
+    page_title="NeuroVision: Early Glaucoma Prediction ",
     page_icon="👁️👁️",
     initial_sidebar_state="expanded",
 )
@@ -33,29 +33,29 @@ components.html(
             font-size: 2rem;
         }
     </style>
-    <p id="effect">EyeCare AI</p>
+    <p id="effect">NeuroVision</p>
     """,
     height=69,
 )
 
 
 def page_layout():
-    st.write("Eye Disease Predictor is an app that combines various ML models into one in order to determine if you have a disease.")
+    st.write("NeuroVision is an app that combines various ML models into one in order to determine if you have a disease.")
     st.markdown("## Benefits:")
     st.write("- Fast and accurate diagnosis of diseases")
     st.write("- Accessible from anywhere, anytime")
     st.markdown("## Why is our app unique?")
-    st.write("- EyeCare  combines multiple ML models into one app")
+    st.write("- NeuroVision  combines multiple ML models into one app")
     st.write("- The app uses CNN, SNN  on imagery to diagnose diseases")
-    st.write("- Eye Disease Predictor uses advanced algorithms to provide fast and accurate diagnosis")
+    st.write("- NeuroVision uses advanced algorithms to provide fast and accurate diagnosis")
     st.markdown("## Relevance:")
-    st.write("- Eye Disease Predictor can diagnose various diseases, including lung cancer, tuberculosis, and pneumonia")
+    st.write("- NeuroVision can diagnose various diseases, including lung cancer, tuberculosis, and pneumonia")
     st.write("- The app can be used by doctors, hospitals, and patients")
-    st.write("- Eye Disease Predictor can improve the accuracy and speed of disease diagnosis")
+    st.write("- NeuroVision can improve the accuracy and speed of disease diagnosis")
     st.markdown("## Uses:")
     st.write("- Hospitals and clinics can use EyeCare to diagnose diseases more quickly")
     st.write("- Patients can use EyeCare to get a quick and accurate diagnosis without the need for invasive procedures")
-    st.write("- EyeCare can be used to screen large populations for diseases, such as tuberculosis and lung cancer")
+    st.write("- NeuroVision can be used to screen large populations for diseases, such as tuberculosis and lung cancer")
     
 # Render page layout
 page_layout()
